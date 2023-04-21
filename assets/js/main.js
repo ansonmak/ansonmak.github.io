@@ -17,8 +17,10 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 20
+				parallaxFactor: 1.7,
 
+			// Background offset from top
+				topOffset: -155
 		};
 
 	// Breakpoints.
@@ -82,7 +84,7 @@
 					$header.css('background-position', 'left 0px');
 
 					$window.on('scroll.strata_parallax', function() {
-						$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+						$header.css('background-position', '50% ' + (settings.topOffset-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 					});
 
 				});

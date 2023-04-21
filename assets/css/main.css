@@ -2146,6 +2146,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.avatar:hover{
+				content: url(../../images/digital_icon2c.png);
+				border-radius: 100%;
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
@@ -2197,7 +2203,8 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 0.5em 0;
+			text-align: center;
 		}
 
 			ul.icons li:last-child {
@@ -2591,20 +2598,20 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-color: #000000;
+		background-attachment: scroll;
+		background-image: url("../../images/Portfolio_Banner.png");
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-size: 150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 2em 2em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2627,6 +2634,14 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+		#header small {
+			font-size: 1.2em;
+		}
+
+		#header name {
+			color: lightseagreen;
+		}
+
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
@@ -2639,8 +2654,30 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			margin: 0 0 0em 0;
+			width: 12em;
+		}
+
+		#header .typewriter {
+			overflow: hidden; /* Ensures the content is not revealed until the animation */
+			border-right: .15em solid orange; /* The typwriter cursor */
+			white-space: nowrap; /* Keeps the content on a single line */
+			margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+			max-width: 250px;
+			letter-spacing: .15em; /* Adjust as needed */
+			animation: 
+				typing 2.5s steps(19, end),
+				blink-caret .75s step-end infinite;
+		}
+		/* The typing effect */
+		@keyframes typing {
+			from { width: 0 }
+			to { width: 100% }
+		}
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+			from, to { border-color: transparent }
+			50% { border-color: orange; }
 		}
 
 /* Footer */
@@ -2649,9 +2686,17 @@ input, select, textarea {
 		margin: 1em 0 0 0;
 	}
 
-		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
-		}
+	#footer .icons a {
+		color: rgba(255, 255, 255, 0.4);
+	}
+
+	#footer .button {
+		font-size: 1em;
+		height: 3em;
+		min-width: 8em;
+		margin: 0.5em 0 0.5em 0;
+		border-radius: 1.3em;
+	}
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
@@ -2682,10 +2727,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
+		margin-left: 25%;
+		max-width: 100em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
@@ -3078,7 +3123,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/Portfolio_Banner.png");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
