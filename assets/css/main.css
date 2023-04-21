@@ -2649,7 +2649,7 @@ input, select, textarea {
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
-			line-height: 1.75em;
+			line-height: 1.2em;
 			margin: 0;
 		}
 
@@ -2664,9 +2664,10 @@ input, select, textarea {
 			white-space: nowrap; /* Keeps the content on a single line */
 			margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 			max-width: 250px;
+			max-height: 40px;
 			letter-spacing: .15em; /* Adjust as needed */
 			animation: 
-				typing 2.5s steps(19, end),
+				typing 3s steps(19, end),
 				blink-caret .75s step-end infinite;
 		}
 		/* The typing effect */

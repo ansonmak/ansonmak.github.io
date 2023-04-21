@@ -20,7 +20,7 @@
 				parallaxFactor: 1.7,
 
 			// Background offset from top
-				topOffset: -155
+				topOffset: -170
 		};
 
 	// Breakpoints.
