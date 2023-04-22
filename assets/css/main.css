@@ -2133,6 +2133,23 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.about {
+			float:right;
+			margin: 0px 50px;
+			/* object-fit: cover;
+			display: flex;
+    		align-items: flex-end;
+			display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+			flex-wrap: wrap; */
+			width:35em;
+		}
+
+			.image.about img{
+				max-width: 100%;
+				max-height: 100%;
+			}
+
 		.image.avatar {
 			border-radius: 100%;
 		}
@@ -2758,6 +2775,7 @@ input, select, textarea {
 				border-top: 0;
 				margin-top: 0;
 				padding-top: 0;
+				overflow: hidden;
 			}
 
 /* Poptrox */
