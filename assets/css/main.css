@@ -2663,7 +2663,7 @@ input, select, textarea {
 			border-right: .15em solid orange; /* The typwriter cursor */
 			white-space: nowrap; /* Keeps the content on a single line */
 			margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-			max-width: 250px;
+			max-width: 225px;
 			max-height: 40px;
 			letter-spacing: .15em; /* Adjust as needed */
 			animation: 

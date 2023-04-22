@@ -17,7 +17,7 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 1.7,
+				parallaxFactor: 1,
 
 			// Background offset from top
 				topOffset: -170
