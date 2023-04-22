@@ -2146,12 +2146,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.image.avatar:hover{
-				content: url(../../images/digital_icon2c.png);
-				border-radius: 100%;
-				width: 100%;
-			}
-
 		/* Contrainer for About Me image */
 		.image.about {
 			float:right;
