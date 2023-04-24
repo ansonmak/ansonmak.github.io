@@ -3164,6 +3164,26 @@ input, select, textarea {
 
 	}
 
+/* 2-line intro */
+	@media screen and (max-width: 1500px) and (min-width:980px) {
+
+		#header .writerestyle {
+			text-align: center;
+			position: none;
+			right: 0;
+			margin-bottom:1em;
+		}
+
+		#header .typewriter {
+			position: none;
+			left: 50%;
+			transform: translate(-50%, 0);
+			display: block;
+			margin-left: 0;
+		}
+
+	}
+
 /* Large */
 
 	@media screen and (max-width: 1280px) {
