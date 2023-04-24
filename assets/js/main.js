@@ -127,11 +127,11 @@
 					windowMargin: (breakpoints.active('<=small') ? 0 : 200)
 				}
 
-				var cubesatCaption = {caption: function($a) { return "CubeSat"; }};
-				$('#cubesat').poptrox(Object.assign({}, cubesatCaption, settings));
+				var caption = "CubeSat";
+				$('#cubesat').poptrox(Object.assign({}, {caption: function($a) { return caption; }}, settings));
 
-				var humanoidCaption = {caption: function($a) { return "Humanoid"; }};
-				$('#humanoid').poptrox(Object.assign({}, humanoidCaption, settings));
+				var caption = "Humanoid";
+				$('#humanoid').poptrox(Object.assign({}, {caption: function($a) { return caption; }}, settings));
 
 			});
 
