@@ -2242,6 +2242,7 @@ input, select, textarea {
 			bottom: 5px;
 			left: 50%;
 			transform: translate(-50%, 0);
+			white-space: nowrap;
 		}
 		/* Fading animation */
 		.fade {
@@ -3391,6 +3392,18 @@ input, select, textarea {
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
 				}
+
+		/* About Image */
+
+			.dot {
+				margin:5px;
+				height: 12px;
+				width: 12px;
+			}
+
+			.text {
+				font-size: 25px;
+			}
 
 	}
 
