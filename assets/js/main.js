@@ -127,11 +127,10 @@
 					windowMargin: (breakpoints.active('<=small') ? 0 : 200)
 				}
 
-				var caption = "CubeSat";
-				$('#cubesat').poptrox(Object.assign({}, {caption: function($a) { return caption; }}, settings));
+				$('#cubesat').poptrox(settings);
 
 				var caption = "Humanoid";
-				$('#humanoid').poptrox(Object.assign({}, {caption: function($a) { return caption; }}, settings));
+				$('#humanoid').poptrox(settings);
 
 			});
 
