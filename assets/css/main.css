@@ -2149,8 +2149,8 @@ input, select, textarea {
 		/* Contrainer for About Me image */
 		.image.about {
 			float:right;
-			margin: 0 0 0 50px;
-			width:40em;
+			margin: 0 0 30px 50px;
+			width: 60%;
 		}
 
 			.image.about img{
@@ -3224,6 +3224,12 @@ input, select, textarea {
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+			}
+
+		/* About Image */
+			
+			.image.about {
+				width:100%;
 			}
 
 	}
