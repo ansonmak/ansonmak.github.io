@@ -134,6 +134,8 @@
 
 				$('#parrotgripper').poptrox(settings);
 
+				$('#DU').poptrox(settings);
+
 				$('#humanoid').poptrox(settings);
 
 			});
