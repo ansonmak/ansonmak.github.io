@@ -129,7 +129,6 @@
 
 				$('#cubesat').poptrox(settings);
 
-				var caption = "Humanoid";
 				$('#humanoid').poptrox(settings);
 
 			});
