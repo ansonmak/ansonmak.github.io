@@ -115,7 +115,7 @@
 				// });
 
 				var settings = {
-					preload: true,
+					preload: false,
 					popupSpeed: 0,
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
