@@ -129,6 +129,10 @@
 
 				$('#cubesat').poptrox(settings);
 
+				$('#hss').poptrox(settings);
+
+				$('#parrotgripper').poptrox(settings);
+
 				$('#humanoid').poptrox(settings);
 
 			});
