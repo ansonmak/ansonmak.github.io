@@ -124,7 +124,7 @@
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
-					windowMargin: (breakpoints.active('<=small') ? 0 : 120)
+					windowMargin: (breakpoints.active('<=small') ? 0 : 100)
 				}
 
 				$('#cubesat').poptrox(settings);
