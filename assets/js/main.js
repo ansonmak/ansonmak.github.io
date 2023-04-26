@@ -136,7 +136,11 @@
 
 				$('#DU').poptrox(settings);
 
+				$('#gecko').poptrox(settings);
+
 				$('#humanoid').poptrox(settings);
+
+				$('#balance').poptrox(settings);
 
 			});
 
