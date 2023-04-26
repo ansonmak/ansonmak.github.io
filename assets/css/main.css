@@ -2149,7 +2149,7 @@ input, select, textarea {
 		/* Contrainer for About Me image */
 		.image.about {
 			float:right;
-			margin: 0 0 30px 50px;
+			margin: 0 0 30px 40px;
 			width: 60%;
 		}
 
