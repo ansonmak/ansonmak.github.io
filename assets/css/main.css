@@ -2875,6 +2875,60 @@ input, select, textarea {
 				overflow: hidden;
 			}
 
+/* publications container */
+
+	.publication article {
+		/* border-top: solid 3px #f4f4f4; */
+		margin-bottom: 2.25em;
+		padding-top: 2.25em;
+		text-align: center;
+	}
+
+		.publication article:first-child {
+			border-top: 0;
+			padding-top: 0;
+		}
+
+		.publication article .image {
+			display: inline-block;
+			margin-right: 2.5em;
+			vertical-align: middle;
+			width: 40%;
+		}
+
+			.publication article .image img {
+				display: block;
+				width: 100%;
+			}
+
+		.publication article .inner {
+			display: inline-block;
+			vertical-align: middle;
+			width: 50%;
+			text-align: left;
+		}
+
+			.publication article p {
+				margin-bottom: 1em;
+			}
+
+			.publication article .row {
+				margin-left: 0;
+			}
+
+			.publication article .inner .button {
+				min-width: 8em;
+				margin: 0 0.5em 0 0.5em;
+			}
+
+			.publication article bold {
+				color: rgba(100, 100, 100)
+			}
+
+			.publication article .inner > :last-child {
+				margin-bottom: 0;
+			}
+
 /* Poptrox */
 
 	@-moz-keyframes spin {
